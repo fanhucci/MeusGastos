@@ -30,6 +30,7 @@ export default function HomeTabs(){
           },
 
         })}>
+
             <Tabs.Screen name="Inicio" component={InicioScreen}/>
             <Tabs.Screen name="Gastos" component={GastosScreen}/>
             <Tabs.Screen name="Perfil" component={PerfilScreen}/>

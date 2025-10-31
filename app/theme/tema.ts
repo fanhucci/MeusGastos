@@ -16,7 +16,7 @@ export const baseScreenContainer = StyleSheet.create({
   },
 
   containerBase:{
-    width:'80%'
+    width:'80%',
   }
 
 });
@@ -89,5 +89,39 @@ export const userInputTextStyle = StyleSheet.create({
 
   inputFocused: {
     borderBottomWidth: 3,
+  },
+});
+
+//padrao infoCard
+export const infoCardStyle = StyleSheet.create({
+  button: {
+    backgroundColor: cores.tertiary,
+    padding: 10,
+    borderColor: cores.textSecondary,
+    borderRadius:20,
+    borderWidth: 1,
+    marginVertical: 10,
+    marginHorizontal: 20,
+    width: "90%",
+    opacity:0.5
+  },
+  buttonPressed:{
+    opacity:0.7
+  },
+  data: {
+    fontSize: 12,
+    color: cores.textSecondary,
+    opacity: 0.7,
+    marginBottom:2
+  },
+  titulo: {
+    fontSize: 18,
+    color: cores.textSecondary,
+    fontWeight:"bold",
+  },
+  texto: {
+    fontSize: 16,
+    color: cores.textSecondary,
+    opacity: 0.8,
   },
 });
