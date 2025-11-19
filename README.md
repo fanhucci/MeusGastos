@@ -1,6 +1,10 @@
-## 🔐 Configuração do ambiente
+## Exemplo de `.env`
 
-Crie um arquivo `.env` na raiz do projeto baseado no exemplo `.env.example`:
-
-```bash
-cp .env.example .env
+```env
+FIREBASE_API_KEY=your_api_key_here
+FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+FIREBASE_PROJECT_ID=your_project_id
+FIREBASE_STORAGE_BUCKET=your_project_id.appspot.com
+FIREBASE_MESSAGING_SENDER_ID=000000000000
+FIREBASE_APP_ID=1:000000000000:web:xxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_MEASUREMENT_ID=G-XXXXXXXXXX
